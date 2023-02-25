@@ -1,4 +1,4 @@
-FROM ghcr.io/commaai/openpilot-base:latest
+FROM ghcr.io/hanze-hbo-ict/openpilot-base:latest
 
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONPATH /tmp/openpilot:${PYTHONPATH}
